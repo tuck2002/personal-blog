@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap');
+:root {
+    /* Breakpoints */
+    --sm: 30em;
+    --md: 48em;
+    /* Colors */
+    --white: #ffffff;
+    --black: #000000;
+    --error-color: #d20023;
+    --help-color: #038a0e;
+    --focus-border-color: var(--primary-palette-100);
+    --primary-palette-500: #15363c;
+    --primary-palette-400: #20505a;
+    --primary-palette-300: #2a6a79;
+    --primary-palette-200: #40a0b5;
+    --primary-palette-100: #b4dce4;
+    --secondary-palette-400: #4d2205;
+    --secondary-palette-300: #602a06;
+    --secondary-palette-200: #873b08;
+    --secondary-palette-100: #ad4c0b;
+    --gray-palette-400: #222222;
+    --gray-palette-300: #6e6e6e;
+    --gray-palette-200: #8a8a8a;
+    --gray-palette-100: #f2f2f2;
+    --primary-text-color: var(--gray-palette-400);
+    --secondary-text-color: var(--gray-palette-300);
+    /* Font Sizes */
+    --rpx14: 0.875rem;
+    --rpx16: 1rem;
+    --rpx18: 1.125rem;
+    --rpx20: 1.25rem;
+    --rpx22: 1.375rem;
+    --rpx24: 1.5rem;
+    --rpx26: 1.625rem;
+    --rpx28: 1.75rem;
+    --rpx30: 1.875rem;
+    --rpx32: 2rem;
+    --rpx34: 2.125rem;
+    --rpx36: 2.25rem;
+    --rpx38: 2.375rem;
+    --rpx40: 2.5rem;
+    /* Font Weights */
+    --light-weight: 300;
+    --regular-weight: 400;
+    --medium-weight: 500;
+    --bold-weight: 600;
+    /* Space */
+    --space-rpx2: 0.125rem;
+    --space-rpx4: 0.25rem;
+    --space-rpx8: 0.5rem;
+    --space-rpx12: 0.75rem;
+    --space-rpx16: 1rem;
+    --space-rpx20: 1.25rem;
+    --space-rpx24: 1.5rem;
+    --space-rpx28: 1.75rem;
+    --space-rpx32: 2rem;
+    --space-rpx36: 2.25rem;
+    --space-rpx40: 2.5rem;
+    /* Font */
+    --primary-text: 'Montserrat', sans-serif;
+    --heading-text: 'Karla', sans-serif;
+}

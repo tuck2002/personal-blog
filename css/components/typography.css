@@ -1,0 +1,50 @@
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    font-family: var(--heading-text);
+    font-weight: var(--medium-weight);
+    color: var(--primary-palette-500);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Standard paragraph */
+
+p {
+    font-family: var(--primary-text);
+    font-size: var(--rpx18);
+    font-weight: var(--medium-weight);
+    color: var(--primary-text-color);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style Options */
+
+.xlarge {
+    font-size: var(--rpx38);
+}
+
+.large {
+    font-size: var(--rpx30);
+}
+
+.medium {
+    font-size: var(--rpx24);
+}
+
+
+/* Lists */
+
+ul,
+ol {
+    color: var(--primary-text-color);
+    font-family: var(--primary-text);
+}

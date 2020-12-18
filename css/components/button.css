@@ -1,0 +1,84 @@
+button {
+    cursor: pointer;
+    font-family: var(--primary-text);
+    font-size: var(--rpx16);
+    font-weight: var(--medium-weight);
+    min-width: 5rem;
+    padding: var(--space-rpx12) var(--space-rpx16);
+    text-align: center;
+}
+
+
+/* Reomves browser outline */
+
+button:hover,
+button:active,
+button:focus {
+    outline: none;
+}
+
+
+/* Removes dotted box on focus in firefox */
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+button:disabled,
+button[disabled] {
+    box-shadow: none;
+    cursor: not-allowed;
+    outline: none;
+}
+
+
+/* Contained Buttons */
+
+.contained-button {
+    background-color: var(--primary-palette-300);
+    border: 2px solid var(--primary-palette-300);
+    color: var(--white);
+}
+
+.contained-button:hover,
+.contained-button:focus-visible {
+    background-color: var(--primary-palette-400);
+    border: 2px solid var(--primary-palette-400);
+    color: var(--white);
+}
+
+.contained-button:active {
+    background-color: var(--primary-palette-500);
+    border: 2px solid var(--primary-palette-500);
+    color: var(--white);
+}
+
+.contained-button:focus-visible {
+    box-shadow: 0 0 0 2px var(--focus-border-color);
+}
+
+
+/* Outlined Buttons */
+
+.outlined-button {
+    background-color: var(--white);
+    border: 2px solid var(--primary-palette-300);
+    color: var(--primary-color);
+}
+
+.outlined-button:hover,
+.outlined-button:focus-visible {
+    background-color: var(--white);
+    border: 2px solid var(--primary-palette-400);
+    color: var(--primary-palette-400);
+}
+
+.outlined-button:active {
+    background-color: var(--white);
+    border: 2px solid var(--primary-palette-500);
+    color: var(--primary-palette-500);
+}
+
+.outlined-button:focus-visible {
+    box-shadow: 0 0 0 2px var(--focus-border-color);
+}

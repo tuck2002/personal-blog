@@ -1,0 +1,65 @@
+/* shared styles */
+
+input,
+select,
+textarea {
+    border: 1px solid var(--gray-palette-300);
+    font-family: var(--primary-text);
+    font-weight: var(--medium-weight);
+    font-size: var(--rpx16);
+    margin: 0.5rem 0;
+    padding: var(--space-rpx4);
+    width: 100%;
+}
+
+input:hover,
+input:active,
+input:focus,
+select:hover,
+select:active,
+select:focus,
+textarea:hover,
+textarea:active,
+textarea:focus {
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: 0 0 0 3px var(--focus-border-color);
+}
+
+
+/* Label Styles */
+
+label {
+    display: block;
+    font-size: var(--rpx16);
+}
+
+
+/* Input Styles */
+
+input {
+    min-height: 2.25rem;
+}
+
+
+/* textarea styles */
+
+textarea {
+    /* needed so focus on ios are styled properly */
+    appearance: none;
+    background-color: var(--white);
+    color: var(--primary-text-color);
+    display: block;
+}
+
+
+/* removes the borderd added by firefox */
+
+textarea:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000000;
+}

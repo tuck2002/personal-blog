@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+html * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -ms-touch-action: none;
+}
+
+body {
+    font-family: var(--primary-text);
+    letter-spacing: 0.012rem;
+    line-height: 1.5;
+    word-spacing: 0.16rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+
+/* Sets a max width container */
+
+.container {
+    max-width: 66rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Use to hide something visually but still make it keyboard accessible */
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+
+/* Adds margin to children only */
+
+.vertical-space>*+* {
+    margin-top: 2.5rem;
+}
+
+
+/* Adds margin recursively */
+
+.vertical-space-child *+* {
+    margin-top: 1.5rem;
+}
